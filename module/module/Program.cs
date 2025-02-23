@@ -27,9 +27,17 @@
     {
         public static void Main()
         {
-        Triangle t = new();
-        t.B = 12;
-        Console.WriteLine($"Hypotenuse: {t.C}");
+        Data d = new Data();
+        Console.WriteLine(d[1]);
+        d[1] = 2.3;
+        Console.WriteLine(d[1]);
+
+        //Console.WriteLine(d[-1]);
+
+
+        //Triangle t = new();
+        //t.B = 12;
+        //Console.WriteLine($"Hypotenuse: {t.C}");
 
 
         //Cat cat1 = new Cat();
